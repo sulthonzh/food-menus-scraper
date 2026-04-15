@@ -1,0 +1,17 @@
+[project]
+name = "grab-scraper"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+    "scrapy>=2.11.0",
+    "scrapy-playwright>=0.0.34",
+    "itemloaders",
+    "itemadapter",
+    "playwright-stealth>=2.0.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+]

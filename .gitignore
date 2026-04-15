@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Scrapy
+.scrapy/
+
+# Playwright
+.playwright/
+
+# Output (regenerable from scrape)
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Internal docs (not for repo)
+docs/
+development-phases/
+
+# Reference material
+*.pdf
+
+# Temp / scratch files
+*_merchant_ids.txt
+.cache/
