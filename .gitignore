@@ -49,3 +49,5 @@ development-phases/
 # Temp / scratch files
 *_merchant_ids.txt
 .cache/
+.mypy_cache/
+node_modules/
